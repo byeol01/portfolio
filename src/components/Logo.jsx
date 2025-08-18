@@ -25,10 +25,10 @@ export default function Logo({ currentIndex, visible = true }) {
     scale = 0.22;
   } else {
     // Contact
-    top = "40%";
+    top = "37%";
     left = "25%";
     x = "0%";
-    scale = 0.9;
+    scale = 0.75;
   }
 
   const base = { top, left, x, scale, opacity: visible ? 1 : 0 };
