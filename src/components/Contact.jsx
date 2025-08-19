@@ -112,7 +112,7 @@ export default function Contact() {
           </SubmitButton>
 
           {status === "success" && (
-            <SuccessText role="status">메일이 성공적으로 전송되었습니다 ✅</SuccessText>
+            <SuccessText role="status">메일이 성공적으로 전송되었습니다💌</SuccessText>
           )}
           {status === "error" && (
             <ErrorText role="alert">전송에 실패했어요. 잠시 후 다시 시도해 주세요.</ErrorText>
