@@ -55,18 +55,34 @@ const projects = [
       figma: "https://www.figma.com/file/EXAMPLE2",
     },
     
-  {
-    id: 2,
-    title: "에듀테크 교육 검색 플랫폼",
-    contribution: "캐릭터 디자인, 로그인 및 반응형 UI 디자인, 부분 섹션 구현",
-    stack: "React, SCSS, Vite, Figma",
-    mockup: "/img03.png",
-    preview: "/preview3.png",
-    responsive: "/responsive03.png",
-    site: "https://edu-tech-platform.vercel.app/",
-    github: "https://github.com/byeol01/edu-tech",
-    figma: "https://www.figma.com/file/EXAMPLE3"
-  },
+    {
+      id: 2,
+      title: "Meloa – 콘텐츠 판매 및 감상 플랫폼",
+      contribution:
+        "기획 참여, 프론트엔드 개발자로서 디자인 시안을 기반으로 백엔드 연동 전까지 UI 코드 구현. " +
+        "모바일 환경 최적화 및 반응형 레이아웃 설계.",
+      stack: "React, styled-components, MongoDB, Vercel, GitHub, Figma",
+      details: {
+        period: "2025.07.04 ~ 2025.08.01",
+        type: "프로젝트",
+        description: "음악 콘텐츠 감상 및 구매 플랫폼으로, 일반 사용자와 관리자 모드를 지원",
+        goal:
+          "사용자가 모바일 환경에서 음악 콘텐츠를 감상하고 구매할 수 있으며, 관리자는 콘텐츠를 업로드 및 관리할 수 있는 서비스 구현",
+        implementation:
+          "일반 사용자: 콘텐츠 감상 / 구매 / 찜 / 장바구니 기능 제공\n" +
+          "관리자: 콘텐츠 업로드 / 수정 / 삭제 및 전체 관리 기능 구현",
+        responsibilities:
+          "기획 참여, 프론트엔드 개발자로 디자인 반영 및 백엔드 연동 전까지 코드 구현, " +
+          "반응형 UI 및 사용자 경험 최적화",
+      },
+      mockup: "/img03.png",
+      preview: "/preview3.png",
+      responsive: "/responsive03.png",
+      site: "https://meloa.vercel.app/",
+      github: "https://github.com/byeol01/meloa",
+      figma: "https://www.figma.com/file/EXAMPLE3",
+    },
+    
   {
     id: 3,
     title: "베스트이엔티 리뉴얼",
