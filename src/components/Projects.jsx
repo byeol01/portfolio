@@ -111,45 +111,45 @@ const projects = [
       github: "https://github.com/byeol01/bestent_Renewal",
       figma: "https://www.figma.com/file/EXAMPLE4",
     },
-
+      
+    {
+      id: 4,
+      title: "새미네부엌 리뉴얼",
+      contribution:
+        "기존 새미네부엌 웹사이트를 리뉴얼하며 랜딩 페이지 중심의 정보 구조를 재구성했습니다. " +
+        "색감 통일성과 브랜드 톤을 맞추고, 심심하지 않은 UI로 사용자 경험을 개선했습니다.",
+      stack: "HTML, CSS, Figma, Slick.js, 슬라이딩 플러그인",
+      details: {
+        period: "2025.03.20 ~ 2025.04.10",
+        type: "리뉴얼 프로젝트",
+        description: "브랜드 톤앤매너에 맞춘 랜딩 페이지 중심의 웹사이트 리뉴얼",
+        goal:
+          "기존 사이트의 정보 전달력을 강화하고, 색감과 구성 요소를 통일해 브랜드 이미지를 명확히 전달",
+        implementation:
+          "메인 랜딩 페이지 구성, 제품 소개 섹션 슬라이딩 UI 구현, 컬러 시스템 정리 및 시각적 통일감 부여",
+        responsibilities:
+          "사이트 리뉴얼 기획, 전체 UI/UX 디자인, HTML/CSS 퍼블리싱, Slick.js 적용 및 인터랙션 구현",
+      },
+      mockup: "/img08.png",
+      preview: "/preview8.png",
+      responsive: "/responsive.png",
+      site: "https://byeol01.github.io/SamPyo/",
+      github: "https://github.com/byeol01/SamPyo",
+      figma: "https://www.figma.com/file/EXAMPLE5",
+    },
+    
   {
-    id: 4,
-    title: "새미네부엌 리뉴얼",
-    contribution: "새미네부엌 웹사이트 리뉴얼 디자인 및 개발",
+    id: 5,
+    title: "랜딩페이지 1",
+    contribution: "캐릭터 디자인, 로그인 및 반응형 UI 디자인, 부분 섹션 구현",
     stack: "React, SCSS, Vite, Figma",
-    mockup: "/img08.png",
-    preview: "/preview8.png",
+    mockup: "/img04.png",
+    preview: "/preview4.png",
     responsive: "/responsive.png",
-    site: "https://byeol01.github.io/SamPyo/",
-    github: "https://github.com/byeol01/SamPyo",
-    figma: "https://www.figma.com/file/EXAMPLE5"
+    site: "https://byeol01.github.io/Landing1/",
+    github: "https://github.com/byeol01/Landing1",
+    figma: "https://www.figma.com/file/EXAMPLE6"
   },
- {
-  id: 4,
-  title: "새미네부엌 리뉴얼",
-  contribution:
-    "기존 새미네부엌 웹사이트를 리뉴얼하며 랜딩 페이지 중심의 정보 구조를 재구성했습니다. " +
-    "색감 통일성과 브랜드 톤을 맞추고, 심심하지 않은 UI로 사용자 경험을 개선했습니다.",
-  stack: "HTML, CSS, Figma, Slick.js, 슬라이딩 플러그인",
-  details: {
-    period: "2025.03.20 ~ 2025.04.10",
-    type: "리뉴얼 프로젝트",
-    description: "브랜드 톤앤매너에 맞춘 랜딩 페이지 중심의 웹사이트 리뉴얼",
-    goal:
-      "기존 사이트의 정보 전달력을 강화하고, 색감과 구성 요소를 통일해 브랜드 이미지를 명확히 전달",
-    implementation:
-      "메인 랜딩 페이지 구성, 제품 소개 섹션 슬라이딩 UI 구현, 컬러 시스템 정리 및 시각적 통일감 부여",
-    responsibilities:
-      "사이트 리뉴얼 기획, 전체 UI/UX 디자인, HTML/CSS 퍼블리싱, Slick.js 적용 및 인터랙션 구현",
-  },
-  mockup: "/img08.png",
-  preview: "/preview8.png",
-  responsive: "/responsive.png",
-  site: "https://byeol01.github.io/SamPyo/",
-  github: "https://github.com/byeol01/SamPyo",
-  figma: "https://www.figma.com/file/EXAMPLE5",
-},
-
   {
     id: 6,
     title: "랜딩페이지 2",
