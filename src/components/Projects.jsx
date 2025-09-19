@@ -3,6 +3,91 @@ import styled from "styled-components";
 import { FaGithub, FaExternalLinkAlt, FaFigma } from "react-icons/fa";
 
 const projects = [
+  {
+    id: 0,
+    title: "2025 춘천시 데이터 활용 해커톤 (은상)",
+    contribution:
+      "2025.09.05 ~ 09.06 춘천시 데이터 활용 해커톤 대회 참여, 은상 수상. " +
+      "프론트엔드 개발자로 앱 UI 디자인 및 프론트엔드 개발을 담당하고, 백엔드와 협업하여 데이터 시각화를 구현했습니다.",
+    stack: "React, styled-components, Python, Figma",
+    details: {
+      period: "2025.09.05 ~ 2025.09.06",
+      type: "해커톤 프로젝트",
+      description: "춘천시 수질 데이터를 활용한 관광지수 및 물놀이 안전지수 예측 앱 '미리씨'",
+      goal:
+        "춘천시의 실시간·과거 수질 데이터를 기반으로 관광지수를 계산하고, " +
+        "사용자가 안전한 물놀이 가능 여부를 직관적으로 확인할 수 있는 앱 제작",
+      implementation:
+        "React + styled-components로 UI 구현, Python으로 데이터 수집·정리 및 지수 계산, " +
+        "사용자 친화적 대시보드 설계, 반응형 레이아웃 적용",
+      responsibilities:
+        "프론트엔드 개발 및 UI 디자인, 컴포넌트 설계, 데이터 시각화 작업, " +
+        "협업을 통한 API 연동 테스트 및 최종 데모 발표 준비",
+    },
+    mockup: "/img10.png",
+    preview: "/preview10.PNG",
+    responsive: "/responsive10.png",
+    site: "https://miri-c.vercel.app/",
+    github: "https://github.com/byeol01/miri-c",
+    figma: "https://www.figma.com/file/EXAMPLE10",
+  },
+  {
+    id: 1,
+    title: "약학 X IT 창업 해커톤",
+    contribution:
+      "2025.07.26 ~ 07.27 약학과 IT 융합 해커톤 참여. " +
+      "발달장애 아동을 위한 디지털 치료제 컨셉을 기획하고 UI/UX 디자인 및 캐릭터 제작을 담당했습니다.",
+    stack: "React, SCSS, Vite, Figma",
+    details: {
+      period: "2025.07.26 ~ 2025.07.27",
+      type: "해커톤 프로젝트",
+      description: "발달장애 아동을 위한 게임형 디지털 치료제 서비스 제작",
+      goal:
+        "아동들이 집중하면서 학습할 수 있는 게임형 학습 플랫폼 제작. AI 알고리즘을 활용해 개별 맞춤 리포트 제공",
+      implementation:
+        "React 기반 반응형 웹앱 제작. UI 디자인과 간단한 게임 플로우 구현, 학습 진행도 시각화",
+      responsibilities:
+        "디자이너로 참여. UI/UX 디자인, 캐릭터 제작, 메인 화면 및 게임 화면 시각 디자인 기획",
+    },
+    mockup: "/img09.png",
+    preview: "/preview9.png",
+    responsive: "/responsive09.png",
+    site: "https://hackathon-project.vercel.app/",
+    github: "https://github.com/byeol01/hackathon",
+    figma: "https://www.figma.com/file/EXAMPLE9",
+  },
+  {
+    id: 2,
+    title: "제로미 – 생활쓰레기 감축 탄소중립 플랫폼",
+    contribution:
+      "생활 속 탄소저감 활동 기록과 지역 단위 성과 집계를 결합한 플랫폼 기획. " +
+      "포인트·등급·지역 랭킹 등 게이미피케이션 구조 설계 및 핵심 UX 와이어프레임 초안 제작.",
+    stack: "React, styled-components, Python, GIS(GeoJSON/PostGIS), Figma",
+    details: {
+      period: "2025.09 ~ 진행중",
+      type: "서비스 기획/프로토타입",
+      description:
+        "사용자의 탄소저감 활동을 기록하고 활동별 포인트를 차등 지급, 개인 성과를 지역 점수로 집계해 " +
+        "지역 단위 탄소중립 참여를 촉진하는 플랫폼.",
+      goal:
+        "개인의 실천 데이터를 지역 성과로 전환하여 참여 동기를 강화하고, " +
+        "쓰레기 배출장소·인증 지점을 GIS 지도로 안내해 실행 장벽을 낮추는 것.",
+      implementation:
+        "① 활동 기록: 걷기/텀블러/분리수거 등 활동별 포인트 차등 지급(개인 인증 고도화 예정)\n" +
+        "② 지역 집계: 개인 포인트 → 동/구 단위 지역 점수로 반영, 랭킹/도전 과제 운영\n" +
+        "③ GIS 안내: 내 주변 최단거리 쓰레기 배출장소 및 지역 인증 가능 지점 지도 제공\n" +
+        "④ 기술 스택: React + styled-components UI, Python 기반 데이터 처리/지수 산출, GeoJSON 지도 레이어",
+      responsibilities:
+        "서비스 콘셉트 정의, 정보구조·핵심 사용자 플로우 설계, 포인트/등급/지역 랭킹 규칙 초안, " +
+        "GIS 화면 구성 가이드 및 디자인 시안 제작",
+    },
+    mockup: "/img11.png",
+    preview: "/preview11.png",
+    responsive: "/responsive11.png",
+    site: "https://zerome.vercel.app/",
+    github: "https://github.com/byeol01/zerome",
+    figma: "https://www.figma.com/file/EXAMPLE_ZEROME"
+  },
     {
       id: 3,
       title: "날씨 기반 쇼핑 추천 서비스",
@@ -208,59 +293,8 @@ const projects = [
       figma: "https://www.figma.com/file/EXAMPLE8",
     },
     
-    {
-      id: 1,
-      title: "약학 X IT 창업 해커톤",
-      contribution:
-        "2025.07.26 ~ 07.27 약학과 IT 융합 해커톤 참여. " +
-        "발달장애 아동을 위한 디지털 치료제 컨셉을 기획하고 UI/UX 디자인 및 캐릭터 제작을 담당했습니다.",
-      stack: "React, SCSS, Vite, Figma",
-      details: {
-        period: "2025.07.26 ~ 2025.07.27",
-        type: "해커톤 프로젝트",
-        description: "발달장애 아동을 위한 게임형 디지털 치료제 서비스 제작",
-        goal:
-          "아동들이 집중하면서 학습할 수 있는 게임형 학습 플랫폼 제작. AI 알고리즘을 활용해 개별 맞춤 리포트 제공",
-        implementation:
-          "React 기반 반응형 웹앱 제작. UI 디자인과 간단한 게임 플로우 구현, 학습 진행도 시각화",
-        responsibilities:
-          "디자이너로 참여. UI/UX 디자인, 캐릭터 제작, 메인 화면 및 게임 화면 시각 디자인 기획",
-      },
-      mockup: "/img09.png",
-      preview: "/preview9.png",
-      responsive: "/responsive09.png",
-      site: "https://hackathon-project.vercel.app/",
-      github: "https://github.com/byeol01/hackathon",
-      figma: "https://www.figma.com/file/EXAMPLE9",
-    },
-    {
-      id: 0,
-      title: "2025 춘천시 데이터 활용 해커톤 (은상)",
-      contribution:
-        "2025.09.05 ~ 09.06 춘천시 데이터 활용 해커톤 대회 참여, 은상 수상. " +
-        "프론트엔드 개발자로 앱 UI 디자인 및 프론트엔드 개발을 담당하고, 백엔드와 협업하여 데이터 시각화를 구현했습니다.",
-      stack: "React, styled-components, Python, Figma",
-      details: {
-        period: "2025.09.05 ~ 2025.09.06",
-        type: "해커톤 프로젝트",
-        description: "춘천시 수질 데이터를 활용한 관광지수 및 물놀이 안전지수 예측 앱 '미리씨'",
-        goal:
-          "춘천시의 실시간·과거 수질 데이터를 기반으로 관광지수를 계산하고, " +
-          "사용자가 안전한 물놀이 가능 여부를 직관적으로 확인할 수 있는 앱 제작",
-        implementation:
-          "React + styled-components로 UI 구현, Python으로 데이터 수집·정리 및 지수 계산, " +
-          "사용자 친화적 대시보드 설계, 반응형 레이아웃 적용",
-        responsibilities:
-          "프론트엔드 개발 및 UI 디자인, 컴포넌트 설계, 데이터 시각화 작업, " +
-          "협업을 통한 API 연동 테스트 및 최종 데모 발표 준비",
-      },
-      mockup: "/img10.png",
-      preview: "/preview10.png",
-      responsive: "/responsive10.png",
-      site: "https://miri-c.vercel.app/",
-      github: "https://github.com/byeol01/miri-c",
-      figma: "https://www.figma.com/file/EXAMPLE10",
-    },
+
+
     
     
 ];
