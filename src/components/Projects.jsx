@@ -138,54 +138,102 @@ const projects = [
       figma: "https://www.figma.com/file/EXAMPLE5",
     },
     
-  {
-    id: 5,
-    title: "랜딩페이지 1",
-    contribution: "캐릭터 디자인, 로그인 및 반응형 UI 디자인, 부분 섹션 구현",
-    stack: "React, SCSS, Vite, Figma",
-    mockup: "/img04.png",
-    preview: "/preview4.png",
-    responsive: "/responsive.png",
-    site: "https://byeol01.github.io/Landing1/",
-    github: "https://github.com/byeol01/Landing1",
-    figma: "https://www.figma.com/file/EXAMPLE6"
-  },
-  {
-    id: 6,
-    title: "랜딩페이지 2",
-    contribution: "캐릭터 디자인, 로그인 및 반응형 UI 디자인, 부분 섹션 구현",
-    stack: "React, SCSS, Vite, Figma",
-    mockup: "/img05.png",
-    preview: "/preview5.png",
-    responsive: "/responsive05.png",
-    site: "https://byeol01.github.io/Landing2/",
-    github: "https://github.com/byeol01/Landing2",
-    figma: "https://www.figma.com/file/EXAMPLE7"
-  },
-  {
-    id: 7,
-    title: "랜딩페이지 3",
-    contribution: "캐릭터 디자인, 로그인 및 반응형 UI 디자인, 부분 섹션 구현",
-    stack: "React, SCSS, Vite, Figma",
-    mockup: "/img06.png",
-    preview: "/preview6.png",
-    responsive: "/responsive.png",
-    site: "https://byeol01.github.io/Landing3/",
-    github: "https://github.com/byeol01/Landing3",
-    figma: "https://www.figma.com/file/EXAMPLE8"
-  },
-  {
-    id: 8,
-    title: "약학 X IT 창업 해커톤",
-    contribution: "2025-7.26~27 약학과 IT 융합 해커톤 참여",
-    stack: "React, SCSS, Vite, Figma",
-    mockup: "/img09.png",
-    preview: "/preview9.png",
-    responsive: "/responsive09.png",
-    site: "https://hackathon-project.vercel.app/",
-    github: "https://github.com/byeol01/hackathon",
-    figma: "https://www.figma.com/file/EXAMPLE9"
-  },
+    {
+      id: 5,
+      title: "랜딩페이지 1",
+      contribution:
+        "실제 사이트를 참고하여 동일한 레이아웃과 인터랙션으로 제작한 클론 랜딩페이지. " +
+        "캐릭터 디자인, 로그인 UI, 반응형 레이아웃 구성 등 부분 섹션 구현 연습 프로젝트.",
+      stack: "HTML, CSS, Figma, Photoshop, Illustrator",
+      details: {
+        period: "2025.02.10 ~ 2025.02.20",
+        type: "클론 프로젝트",
+        description: "실제 사이트를 동일하게 재현한 연습용 랜딩페이지",
+        goal: "UI·UX 구현 능력 강화 및 반응형 레이아웃 제작 연습",
+        implementation: "실제 서비스의 레이아웃, 폰트, 색감, 섹션 구조를 클론하여 제작",
+        responsibilities:
+          "UI 디자인 분석, 캐릭터 및 아이콘 리디자인, HTML/CSS 퍼블리싱, 반응형 구현",
+      },
+      mockup: "/img04.png",
+      preview: "/preview4.png",
+      responsive: "/responsive.png",
+      site: "https://byeol01.github.io/Landing1/",
+      github: "https://github.com/byeol01/Landing1",
+      figma: "https://www.figma.com/file/EXAMPLE6",
+    },
+    {
+      id: 6,
+      title: "랜딩페이지 2",
+      contribution:
+        "실제 서비스 웹페이지를 분석해 동일한 디자인과 인터랙션을 구현한 클론 프로젝트. " +
+        "반응형 UI 구현을 중심으로 연습.",
+      stack: "HTML, CSS, Figma, Photoshop, Illustrator",
+      details: {
+        period: "2025.02.21 ~ 2025.02.28",
+        type: "클론 프로젝트",
+        description: "실제 사이트의 디자인 시스템을 그대로 적용한 연습용 랜딩페이지",
+        goal: "반응형 레이아웃과 세부 인터랙션 구현 능력 향상",
+        implementation: "Flex·Grid 기반 반응형 구조, 스크롤 애니메이션, Hover 인터랙션 구현",
+        responsibilities:
+          "UI 설계, HTML/CSS 퍼블리싱, 애니메이션 효과 추가, 모바일 퍼스트 레이아웃 적용",
+      },
+      mockup: "/img05.png",
+      preview: "/preview5.png",
+      responsive: "/responsive05.png",
+      site: "https://byeol01.github.io/Landing2/",
+      github: "https://github.com/byeol01/Landing2",
+      figma: "https://www.figma.com/file/EXAMPLE7",
+    },
+    {
+      id: 7,
+      title: "랜딩페이지 3",
+      contribution:
+        "랜딩페이지 UI/UX를 직접 설계하고 구현한 연습 프로젝트. " +
+        "애니메이션과 색상 통일성을 고려하여 시각적 완성도를 높임.",
+      stack: "HTML, CSS, Figma, Photoshop, Illustrator",
+      details: {
+        period: "2025.03.01 ~ 2025.03.07",
+        type: "클론 프로젝트",
+        description: "랜딩페이지 제작 및 인터랙션 구현 연습 프로젝트",
+        goal: "디자인 시스템과 인터랙션 패턴을 학습하고 직접 구현",
+        implementation: "스크롤 기반 애니메이션, 슬라이더 컴포넌트 구현, 모바일 대응",
+        responsibilities:
+          "UI 분석 및 리디자인, HTML/CSS 퍼블리싱, 인터랙션 효과 구현, 모바일 최적화",
+      },
+      mockup: "/img06.png",
+      preview: "/preview6.png",
+      responsive: "/responsive.png",
+      site: "https://byeol01.github.io/Landing3/",
+      github: "https://github.com/byeol01/Landing3",
+      figma: "https://www.figma.com/file/EXAMPLE8",
+    },
+    
+    {
+      id: 8,
+      title: "약학 X IT 창업 해커톤",
+      contribution:
+        "2025.07.26 ~ 07.27 약학과 IT 융합 해커톤 참여. " +
+        "발달장애 아동을 위한 디지털 치료제 컨셉을 기획하고 UI/UX 디자인 및 캐릭터 제작을 담당했습니다.",
+      stack: "React, SCSS, Vite, Figma",
+      details: {
+        period: "2025.07.26 ~ 2025.07.27",
+        type: "해커톤 프로젝트",
+        description: "발달장애 아동을 위한 게임형 디지털 치료제 서비스 제작",
+        goal:
+          "아동들이 집중하면서 학습할 수 있는 게임형 학습 플랫폼 제작. AI 알고리즘을 활용해 개별 맞춤 리포트 제공",
+        implementation:
+          "React 기반 반응형 웹앱 제작. UI 디자인과 간단한 게임 플로우 구현, 학습 진행도 시각화",
+        responsibilities:
+          "디자이너로 참여. UI/UX 디자인, 캐릭터 제작, 메인 화면 및 게임 화면 시각 디자인 기획",
+      },
+      mockup: "/img09.png",
+      preview: "/preview9.png",
+      responsive: "/responsive09.png",
+      site: "https://hackathon-project.vercel.app/",
+      github: "https://github.com/byeol01/hackathon",
+      figma: "https://www.figma.com/file/EXAMPLE9",
+    },
+    
 ];
 
 export default function ProjectSection() {
