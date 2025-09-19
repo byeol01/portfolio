@@ -29,18 +29,32 @@ const projects = [
         "https://www.figma.com/design/TXBgRvgne3nnz7g7m1VuAO/%EC%9C%BC%EB%9E%8F%EC%B0%A8%EC%B0%A8?node-id=0-1",
     },
   
-  {
-    id: 1,
-    title: "마음상점",
-    contribution: "캐릭터 디자인, 로그인 및 반응형 UI 디자인, 부분 섹션 구현,반응형구현,mySQL로 DB연동 로그인과 회원가입 아이디찾기 로그인했을때와 로그인을 하지않을때 결제 페이지 및 메인페이지 다르게 구현",
-    stack: "React, SCSS, Vite, Figma,mySQL,GPT,미리캔버스",
-    mockup: "/img02.png",
-    preview: "/preview2.png",
-    responsive: "/responsive02.png",
-    site: "https://heart-shop.vercel.app/",
-    github: "https://github.com/byeol01/heart-shop",
-    figma: "https://www.figma.com/file/EXAMPLE2"
-  },
+    {
+      id: 1,
+      title: "마음상점",
+      contribution:
+        "캐릭터 디자인, 로그인 및 반응형 UI 디자인, 부분 섹션 구현, 반응형 구현, mySQL로 DB 연동, 로그인/회원가입/아이디 찾기 구현, " +
+        "로그인 여부에 따른 결제 페이지 및 메인 페이지 차별화 구현",
+      stack: "React, SCSS, Vite, Figma, mySQL, GPT, 미리캔버스",
+      details: {
+        period: "2025.06.05 ~ 2025.07.03",
+        type: "프로젝트",
+        description: "에듀테크 교육 검색 플랫폼 (기분 기반 클래스 추천)",
+        goal: "기분에 따라 맞춤형 클래스를 추천하는 교육 검색 플랫폼 구현",
+        implementation:
+          "React 기반 반응형 SPA로 개발, 챗봇 인터페이스 제공, Dark mode 기능 구현",
+        responsibilities:
+          "기획 참여, UI/UX 디자인 및 전체 컨셉 구상, 지역별 클래스 추천 및 결제 페이지 제작, " +
+          "사이트 메인 캐릭터 제작, 전반적인 반응형 레이아웃 구현",
+      },
+      mockup: "/img02.png",
+      preview: "/preview2.png",
+      responsive: "/responsive02.png",
+      site: "https://heart-shop.vercel.app/",
+      github: "https://github.com/byeol01/heart-shop",
+      figma: "https://www.figma.com/file/EXAMPLE2",
+    },
+    
   {
     id: 2,
     title: "에듀테크 교육 검색 플랫폼",
