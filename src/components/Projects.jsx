@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkAlt, FaFigma } from "react-icons/fa";
 
 const projects = [
     {
-      id: 0,
+      id: 3,
       title: "날씨 기반 쇼핑 추천 서비스",
       contribution:
         "전체적인 사이트 컨셉과 컬러 시스템을 직접 설계하고, 서비스 톤앤매너에 맞춘 커스텀 아이콘을 제작했습니다. " +
@@ -30,7 +30,7 @@ const projects = [
     },
   
     {
-      id: 1,
+      id: 4,
       title: "마음상점",
       contribution:
         "캐릭터 디자인, 로그인 및 반응형 UI 디자인, 부분 섹션 구현, 반응형 구현, mySQL로 DB 연동, 로그인/회원가입/아이디 찾기 구현, " +
@@ -56,7 +56,7 @@ const projects = [
     },
     
     {
-      id: 2,
+      id: 5,
       title: "Meloa – 콘텐츠 판매 및 감상 플랫폼",
       contribution:
         "기획 참여, 프론트엔드 개발자로서 디자인 시안을 기반으로 백엔드 연동 전까지 UI 코드 구현. " +
@@ -84,7 +84,7 @@ const projects = [
     },
     
     {
-      id: 3,
+      id: 6,
       title: "베스트이엔티 리뉴얼",
       contribution:
         "기존 베스트이엔티 웹사이트를 전면 리뉴얼. 기획부터 디자인, 퍼블리싱까지 전 과정 참여. " +
@@ -113,7 +113,7 @@ const projects = [
     },
       
     {
-      id: 4,
+      id: 7,
       title: "새미네부엌 리뉴얼",
       contribution:
         "기존 새미네부엌 웹사이트를 리뉴얼하며 랜딩 페이지 중심의 정보 구조를 재구성했습니다. " +
@@ -139,7 +139,7 @@ const projects = [
     },
     
     {
-      id: 5,
+      id: 8,
       title: "랜딩페이지 1",
       contribution:
         "실제 사이트를 참고하여 동일한 레이아웃과 인터랙션으로 제작한 클론 랜딩페이지. " +
@@ -162,7 +162,7 @@ const projects = [
       figma: "https://www.figma.com/file/EXAMPLE6",
     },
     {
-      id: 6,
+      id: 9,
       title: "랜딩페이지 2",
       contribution:
         "실제 서비스 웹페이지를 분석해 동일한 디자인과 인터랙션을 구현한 클론 프로젝트. " +
@@ -185,7 +185,7 @@ const projects = [
       figma: "https://www.figma.com/file/EXAMPLE7",
     },
     {
-      id: 7,
+      id: 10,
       title: "랜딩페이지 3",
       contribution:
         "랜딩페이지 UI/UX를 직접 설계하고 구현한 연습 프로젝트. " +
@@ -209,7 +209,7 @@ const projects = [
     },
     
     {
-      id: 8,
+      id: 1,
       title: "약학 X IT 창업 해커톤",
       contribution:
         "2025.07.26 ~ 07.27 약학과 IT 융합 해커톤 참여. " +
@@ -233,6 +233,35 @@ const projects = [
       github: "https://github.com/byeol01/hackathon",
       figma: "https://www.figma.com/file/EXAMPLE9",
     },
+    {
+      id: 0,
+      title: "2025 춘천시 데이터 활용 해커톤 (은상)",
+      contribution:
+        "2025.09.05 ~ 09.06 춘천시 데이터 활용 해커톤 대회 참여, 은상 수상. " +
+        "프론트엔드 개발자로 앱 UI 디자인 및 프론트엔드 개발을 담당하고, 백엔드와 협업하여 데이터 시각화를 구현했습니다.",
+      stack: "React, styled-components, Python, Figma",
+      details: {
+        period: "2025.09.05 ~ 2025.09.06",
+        type: "해커톤 프로젝트",
+        description: "춘천시 수질 데이터를 활용한 관광지수 및 물놀이 안전지수 예측 앱 '미리씨'",
+        goal:
+          "춘천시의 실시간·과거 수질 데이터를 기반으로 관광지수를 계산하고, " +
+          "사용자가 안전한 물놀이 가능 여부를 직관적으로 확인할 수 있는 앱 제작",
+        implementation:
+          "React + styled-components로 UI 구현, Python으로 데이터 수집·정리 및 지수 계산, " +
+          "사용자 친화적 대시보드 설계, 반응형 레이아웃 적용",
+        responsibilities:
+          "프론트엔드 개발 및 UI 디자인, 컴포넌트 설계, 데이터 시각화 작업, " +
+          "협업을 통한 API 연동 테스트 및 최종 데모 발표 준비",
+      },
+      mockup: "/img10.png",
+      preview: "/preview10.png",
+      responsive: "/responsive10.png",
+      site: "https://miri-c.vercel.app/",
+      github: "https://github.com/byeol01/miri-c",
+      figma: "https://www.figma.com/file/EXAMPLE10",
+    },
+    
     
 ];
 
