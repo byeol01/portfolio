@@ -62,13 +62,29 @@ export default function About() {
             <ActivitySection>
               <SectionTitle>공모전 & 해커톤</SectionTitle>
               <ActivityList>
-                {/* <ActivityItem>
-                  <strong>[공모전] 2024 땡땡 UI/UX 디자인 공모전</strong>
-                  <p>팀장으로 참여, 모바일 앱 UX 설계 및 Figma 프로토타입 제작</p>
-                </ActivityItem> */}
-                <ActivityItem>
+              <ActivityItem>
                   <strong>[해커톤] 2025 약학 X IT 창업 해커톤</strong>
                   <p>디자이너 역할, 앱 디자인 </p>
+                </ActivityItem>
+                <ActivityItem>
+                  <strong>[해커톤] 2025 춘천시 데이터 활용 해커톤 대회[은상]</strong>
+                  <p>프론트 개발자 역활, 앱 디자인 및 프론트작업 </p>
+                </ActivityItem>
+                <ActivityItem>
+                  <strong>[공모전] 2025 서울 데이터 허브 시각화 경진대회</strong>
+                  <p>팀원으로 참여, 자료 및 데이터수집 및 ppt자료 제작,데이터 시각화 시안 제작</p>
+                </ActivityItem>
+                <ActivityItem>
+                  <strong>[공모전]생성형 AI 콘텐츠 공모전 </strong>
+                  <p>새만금 스마트 수변도시의 이미지를 프롬프트로 입력하여 생성형 AI를 활용해 디자인 및 기획</p>
+                </ActivityItem>
+                <ActivityItem>
+                  <strong>[공모전] 전주비전대학교 캐릭터 네이밍 공모전</strong>
+                  <p>캐릭터 네이밍 기획 </p>
+                </ActivityItem>
+                <ActivityItem>
+                  <strong>[공모전] 2025 미디어센터관악 생성형 AI공모전 GAGA </strong>
+                  <p>생성형 AI를 활용해 캐릭터 디자인 및 기획</p>
                 </ActivityItem>
               </ActivityList>
             </ActivitySection>
@@ -132,7 +148,7 @@ const TextContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 5%;
+  margin-left: 15%;
 
   @media (max-width: 1200px) {
     margin-left: 0;
@@ -251,6 +267,35 @@ const ActivityList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color:#fffdf6;
+  
+  /* 사이트 스타일과 통일된 스크롤바 */
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #ffd9ec;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #fff0f6;
+    border-radius: 10px;
+  }
+
+  /* 파이어폭스용 */
+  scrollbar-color: #ffd9ec #fff0f6;
+  scrollbar-width: thin;
+  
+  /* 모바일에서 스크롤바 숨기기 */
+  @media (max-width: 768px) {
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+  }
 `;
 
 const ActivityItem = styled.li`

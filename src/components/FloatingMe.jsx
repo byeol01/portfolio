@@ -20,7 +20,7 @@ export default function FloatingMe({ currentIndex, visible = true }) {
     <motion.img
       src="/me.png"
       alt="me"
-      initial={isMain ? mainVariant : stuckAboutVariant}
+      initial={false}
       animate={isMain ? mainVariant : stuckAboutVariant}
       transition={{ duration: 0.6, ease: "easeInOut" }}
       style={{

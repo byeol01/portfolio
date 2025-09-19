@@ -97,7 +97,7 @@ useEffect(() => {
   // -------------------------------------------------------
   useEffect(() => {
     const handleScroll = () => {
-      if (!showMainContent) return;
+      if (!showMainContent || isSnapping.current) return;
 
       const scrollPos = window.scrollY + window.innerHeight / 2;
       const idx = sectionRefs.current.findIndex(
@@ -124,12 +124,20 @@ useEffect(() => {
   useEffect(() => {
     if (!showMainContent) return;
 
+    // body 클래스 설정
+    document.body.classList.add('main-content-visible');
+
     // 약간의 지연 후 맨 위로
     const t = setTimeout(() => {
       window.scrollTo({ top: 0, behavior: "instant" });
+      setCurrentIndex(0); // 초기 인덱스 설정
     }, 100);
 
-    return () => clearTimeout(t);
+    return () => {
+      clearTimeout(t);
+      // 컴포넌트 언마운트 시 body 클래스 정리
+      document.body.classList.remove('main-content-visible');
+    };
   }, [showMainContent]);
 
   return (

@@ -41,7 +41,7 @@ export default function Logo({ currentIndex, visible = true }) {
     <motion.img
       src="/logo.png"
       alt="logo"
-      initial={base}
+      initial={false}
       animate={base}
       transition={{ duration: 0.8, ease: "easeInOut" }}
       style={{

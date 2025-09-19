@@ -61,6 +61,7 @@ export default function IntroVideo({ onTransition }) {
       }
       // 컴포넌트 언마운트 시 body 클래스 정리
       document.body.classList.remove('intro-playing');
+      document.body.classList.remove('main-content-visible');
     };
   }, [onTransition]);
 
